@@ -1,0 +1,10 @@
+{
+	"folders" : [{
+			"path" : "/d/develop/project/",
+			"name" : "Project Name"
+		}
+	],
+	"settings" : {
+		"tab_size" : 4
+	}
+}
