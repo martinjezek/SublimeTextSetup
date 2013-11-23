@@ -1,10 +1,11 @@
 {
-	"folders" : [{
-			"path" : "/d/develop/project/",
-			"name" : "Project Name"
-		}
-	],
-	"settings" : {
-		"tab_size" : 4
-	}
+    "folders" : [{
+            "path" : "/d/develop/project/",
+            "name" : "Project Name"
+        }
+    ],
+    "settings" : {
+        "tab_size" : 4,
+        "translate_tabs_to_spaces" : true
+    }
 }
