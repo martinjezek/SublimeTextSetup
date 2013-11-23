@@ -48,9 +48,47 @@ How to use:
 - `Ctrl+Shift+P`
 - `Side Bar: Enable/Disable Syncing`
 
+## Soda Theme
+
+Dark and light custom UI themes for Sublime Text.
+
+- [Soda Theme - Package Control][SodaThemeGitPackageControl]
+- [Soda Theme - GitHub][SodaThemeGit]
+
+Install:
+
+- `Ctrl+Shift+P`
+- `Package Control: Install Package`
+- `Theme - Soda`
+- `Sublime Text 2 > Preferences > Settings - User` 
+- `c:/Users/Martin/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings`
+- `Extend Object settings`
+
+```javascript
+{
+    "soda_classic_tabs": false,
+    "soda_folder_icons": false,
+    "theme": "Soda Dark.sublime-theme"
+}
+```
+
+Syntax Highlighting Colour Schemes.
+
+- [Soda Theme - Package Control][SodaThemeSyntaxHighlightingGit]
+
+Install:
+
+- `Unzip`
+- `Copy new themes to Packages/User`
+- `c:/Users/Martin/AppData/Roaming/Sublime Text 2/Packages/User/`
+- `Apply the new theme Preferences > Color Scheme > User > Monokai Soda`
+
 [project.sublime-project]: https://raw.github.com/martinjezek/SublimeTextSetup/master/projects/project.sublime-project
 [ConsoleLog.sublime-snippet]: https://raw.github.com/martinjezek/SublimeTextSetup/master/snippets/ConsoleLog.sublime-snippet
 [PackageControl]: https://sublime.wbond.net/
 [PackageControlInstall]: https://sublime.wbond.net/installation
-[SyncedSideBarGit]: https://github.com/sobstel/SyncedSideBar
 [SyncedSideBarPackageControl]: https://sublime.wbond.net/packages/SyncedSideBar
+[SyncedSideBarGit]: https://github.com/sobstel/SyncedSideBar
+[SodaThemeGitPackageControl]: https://sublime.wbond.net/packages/Theme%20-%20Soda
+[SodaThemeGit]: https://github.com/buymeasoda/soda-theme/
+[SodaThemeSyntaxHighlightingGit]: http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip
