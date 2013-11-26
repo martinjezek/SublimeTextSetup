@@ -1,4 +1,4 @@
-# SublimeTextSetup
+# Sublime Text 2 - Setup
 
 A few thoughts how to set up Sublime Text editor.
 
