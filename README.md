@@ -52,7 +52,7 @@ How to use:
 
 Dark and light custom UI themes for Sublime Text.
 
-- [Soda Theme - Package Control][SodaThemeGitPackageControl]
+- [Soda Theme - Package Control][SodaThemePackageControl]
 - [Soda Theme - GitHub][SodaThemeGit]
 
 Install:
@@ -83,12 +83,67 @@ Install:
 - `c:/Users/Martin/AppData/Roaming/Sublime Text 2/Packages/User/`
 - `Apply the new theme Preferences > Color Scheme > User > Monokai Soda`
 
+## JSHint
+
+Plugin allowing you to check your JavaScript code for nasty errors, coding conventions and other goodies via Node.js. It relies on JSHint, a fork of JSLint. 
+
+- [Node.js][node.js]
+- [JSHint - Install][node-npm-jshint]
+- [JSHint Gutter - Package Control][JSHintGutterPackageControl]
+- [JSHint Gutter - GitHub][JSHintGutterGit]
+
+Install Node.js:
+
+- `d:/nodejs/`
+
+Install JSHint via NPM:
+
+- `$ npm install jshint -g`
+
+Install JSHint Gutter:
+
+- `Ctrl+Shift+P`
+- `Package Control: Install Package`
+- `JSHint Gutter`
+- `c:/Users/Martin/AppData/Roaming/Sublime Text 2/Packages/JSHint Gutter/JSHint.sublime-settings`
+
+```javascript
+{
+  // Path to your Node.js
+  "node_path": "/d/nodejs/node.exe",
+
+  // Automatically lint on edit (Sublime Text 3 only).
+  "lint_on_edit": false,
+
+  // Automatically lint when a file is saved.
+  "lint_on_save": true
+}
+```
+How to use:
+
+- `Right Click > JSHint > ...`
+- `Ctrl+Alt+J` Lint Code
+- `Ctrl+Alt+C` Clear
+
+Your own .jshintrc options:
+
+The plugin looks for a [.jshintrc][.jshintrc] file in the same directory as the source file you're linting and, or one located recursively up one directory, all the way until the filesystem root. As well, it uses those options along the default ones.
+
+See the documentation at jshint.com and a few [examples here][.jshintrc-examples].
+
+
 [project.sublime-project]: https://raw.github.com/martinjezek/SublimeTextSetup/master/projects/project.sublime-project
 [ConsoleLog.sublime-snippet]: https://raw.github.com/martinjezek/SublimeTextSetup/master/snippets/ConsoleLog.sublime-snippet
 [PackageControl]: https://sublime.wbond.net/
 [PackageControlInstall]: https://sublime.wbond.net/installation
 [SyncedSideBarPackageControl]: https://sublime.wbond.net/packages/SyncedSideBar
 [SyncedSideBarGit]: https://github.com/sobstel/SyncedSideBar
-[SodaThemeGitPackageControl]: https://sublime.wbond.net/packages/Theme%20-%20Soda
+[SodaThemePackageControl]: https://sublime.wbond.net/packages/Theme%20-%20Soda
 [SodaThemeGit]: https://github.com/buymeasoda/soda-theme/
 [SodaThemeSyntaxHighlightingGit]: http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip
+[node.js]: http://nodejs.org/
+[node-npm-jshint]: http://www.jshint.com/install/
+[JSHintGutterPackageControl]: https://sublime.wbond.net/packages/JSHint%20Gutter
+[JSHintGutterGit]: https://github.com/victorporof/Sublime-JSHint
+[.jshintrc]: https://github.com/victorporof/Sublime-JSHint#using-your-own-jshintrc-options
+[.jshintrc-examples]: https://github.com/jshint/jshint/blob/master/examples/.jshintrc

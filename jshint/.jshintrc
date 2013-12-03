@@ -1,0 +1,14 @@
+{
+    "browser": true,
+    "devel": true,
+    "globals": {
+        "Handlebars": true
+    },
+    "jquery": true,
+    "curly": true,
+    "camelcase": true,
+    "indent": 4,
+    "globalstrict": true,
+    "unused": false,
+    "trailing": false
+}
