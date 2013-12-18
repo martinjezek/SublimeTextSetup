@@ -132,7 +132,7 @@ The plugin looks for a [.jshintrc][.jshintrc] file in the same directory as the 
 See the documentation at jshint.com and a few [examples here][.jshintrc-examples].
 
 
-[project.sublime-project]: https://raw.github.com/martinjezek/SublimeTextSetup/master/projects/project.sublime-project
+[project.sublime-project]: https://raw.github.com/martinjezek/SublimeTextSetup/master/project/.sublime-project
 [ConsoleLog.sublime-snippet]: https://raw.github.com/martinjezek/SublimeTextSetup/master/snippets/ConsoleLog.sublime-snippet
 [PackageControl]: https://sublime.wbond.net/
 [PackageControlInstall]: https://sublime.wbond.net/installation
