@@ -94,7 +94,7 @@ Plugin allowing you to check your JavaScript code for nasty errors, coding conve
 
 Install Node.js:
 
-- `d:/nodejs/`
+- `C:/Program Files/nodejs/` default path
 
 Install JSHint via NPM:
 
