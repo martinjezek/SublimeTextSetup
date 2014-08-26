@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[console.error('${1:foo}');]]></content>
-    <tabTrigger>error</tabTrigger>
-    <scope>source.js</scope>
-    <description>console-log</description>
-</snippet>
