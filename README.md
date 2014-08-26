@@ -92,9 +92,9 @@ Plugin allowing you to check your JavaScript code for nasty errors, coding conve
 - [JSHint Gutter - Package Control][JSHintGutterPackageControl]
 - [JSHint Gutter - GitHub][JSHintGutterGit]
 
-Install Node.js:
+Install Node.js to default path:
 
-- `C:/Program Files/nodejs/` default path
+- `C:/Program Files/nodejs/`
 
 Install JSHint via NPM:
 
