@@ -227,6 +227,23 @@ How to use:
 - press `Tab` to confirm Emmet command
 - Full [Cheat Sheet][EmmetCheatSheet]
 
+## Color Highlighter
+
+ColorHighlighter is a plugin which underlays selected hexadecimal colorcodes (like "#FFFFFF", "rgb(255,255,255)", "white", etc.) with their real color.
+
+- [Color Highlighter - Package Control][ColorPackageControl]
+- [Color Highlighter - GitHub][ColorGit]
+
+Install:
+
+- `Ctrl+Shift+P`
+- `Package Control: Install Package`
+- `Color Highlighter`
+
+How to use:
+
+- `Sublime > Tools > Color Highlighter > Highlit all style` set to `Filled`
+- open any CSS file
 
 [PackageControl]: https://sublime.wbond.net/
 [PackageControlInstall]: https://sublime.wbond.net/installation
@@ -249,3 +266,5 @@ How to use:
 [EmmetPackageControl]: https://sublime.wbond.net/packages/Emmet
 [EmmetGit]: https://github.com/emmetio/emmet
 [EmmetCheatSheet]: http://docs.emmet.io/cheat-sheet/
+[ColorPackageControl]: https://sublime.wbond.net/packages/Color%20Highlighter
+[ColorGit]: https://github.com/Monnoroch/ColorHighlighter
