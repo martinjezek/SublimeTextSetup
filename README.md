@@ -59,16 +59,16 @@ Install:
 
 ```javascript
 {
-	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
-	"font_size": 11.0,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"reveal-on-activate": true,
-	"soda_classic_tabs": false,
-	"soda_folder_icons": false,
-	"theme": "Soda Dark.sublime-theme"
+  "color_scheme": "Packages/User/Monokai Soda.tmTheme",
+  "font_size": 11.0,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "reveal-on-activate": true,
+  "soda_classic_tabs": false,
+  "soda_folder_icons": false,
+  "theme": "Soda Dark.sublime-theme"
 }
 ```
 
@@ -208,6 +208,26 @@ How to use:
 - Input comma separeted file extensions which you want to change line endings `js,html,php`
 - Execute the script
 
+## Emmet (HTML/CSS syntax shortcuts)
+
+Emmet is a plugin for many popular text editors which greatly improves HTML & CSS workflow.
+
+- [Emmet - Package Control][EmmetPackageControl]
+- [Emmet - GitHub][EmmetGit]
+
+Install:
+
+- `Ctrl+Shift+P`
+- `Package Control: Install Package`
+- `Emmet`
+
+How to use:
+
+- `ul#nav>li.item$*4>a{Item $}`
+- press `Tab` to confirm Emmet command
+- Full [Cheat Sheet][EmmetCheatSheet]
+
+
 [PackageControl]: https://sublime.wbond.net/
 [PackageControlInstall]: https://sublime.wbond.net/installation
 [SyncedSideBarPackageControl]: https://sublime.wbond.net/packages/SyncedSideBar
@@ -226,3 +246,6 @@ How to use:
 [EditorConfigGit]: https://github.com/sindresorhus/editorconfig-sublime
 [LineEndingsPackageControl]: https://sublime.wbond.net/packages/Line%20Endings%20Unify
 [LineEndingsGit]: https://github.com/vontio/sublime-line-endings-unify
+[EmmetPackageControl]: https://sublime.wbond.net/packages/Emmet
+[EmmetGit]: https://github.com/emmetio/emmet
+[EmmetCheatSheet]: http://docs.emmet.io/cheat-sheet/
